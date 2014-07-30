@@ -1,0 +1,7 @@
+
+<%- commentHeading %>
+---------------
+
+    <%- actionName %>: (req, res) ->
+      res.json
+        todo: '<%=actionName%>() is not implemented yet!'
